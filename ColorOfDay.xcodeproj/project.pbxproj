@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7540B996280C618300D03B82 /* ColorOfDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540B995280C618300D03B82 /* ColorOfDayApp.swift */; };
-		7540B998280C618300D03B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540B997280C618300D03B82 /* ContentView.swift */; };
+		7540B998280C618300D03B82 /* ColorOfDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540B997280C618300D03B82 /* ColorOfDayView.swift */; };
 		7540B99A280C618400D03B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7540B999280C618400D03B82 /* Assets.xcassets */; };
 		7540B99D280C618400D03B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7540B99C280C618400D03B82 /* Preview Assets.xcassets */; };
+		7540B9A4280C63C100D03B82 /* ColorOfDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540B9A3280C63C100D03B82 /* ColorOfDayModel.swift */; };
+		7540B9A6280C642E00D03B82 /* ColorOfDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540B9A5280C642E00D03B82 /* ColorOfDayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7540B992280C618300D03B82 /* ColorOfDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorOfDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7540B995280C618300D03B82 /* ColorOfDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfDayApp.swift; sourceTree = "<group>"; };
-		7540B997280C618300D03B82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7540B997280C618300D03B82 /* ColorOfDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfDayView.swift; sourceTree = "<group>"; };
 		7540B999280C618400D03B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7540B99C280C618400D03B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7540B9A3280C63C100D03B82 /* ColorOfDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfDayModel.swift; sourceTree = "<group>"; };
+		7540B9A5280C642E00D03B82 /* ColorOfDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfDayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				7540B995280C618300D03B82 /* ColorOfDayApp.swift */,
-				7540B997280C618300D03B82 /* ContentView.swift */,
+				7540B997280C618300D03B82 /* ColorOfDayView.swift */,
+				7540B9A3280C63C100D03B82 /* ColorOfDayModel.swift */,
+				7540B9A5280C642E00D03B82 /* ColorOfDayViewModel.swift */,
 				7540B999280C618400D03B82 /* Assets.xcassets */,
 				7540B99B280C618400D03B82 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7540B998280C618300D03B82 /* ContentView.swift in Sources */,
+				7540B998280C618300D03B82 /* ColorOfDayView.swift in Sources */,
 				7540B996280C618300D03B82 /* ColorOfDayApp.swift in Sources */,
+				7540B9A6280C642E00D03B82 /* ColorOfDayViewModel.swift in Sources */,
+				7540B9A4280C63C100D03B82 /* ColorOfDayModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

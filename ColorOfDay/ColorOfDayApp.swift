@@ -11,7 +11,7 @@ import SwiftUI
 struct ColorOfDayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ColorOfDayView()
         }
     }
 }
